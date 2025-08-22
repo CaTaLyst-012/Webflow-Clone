@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'; 
 import './navbar.css'; 
-import logo from '../../../assets/images/webflow-logo.jpg'; 
+import logo from '../../../assets/Images/webflow-logo.jpg'; 
 
 
 const Navbar = () => { 
