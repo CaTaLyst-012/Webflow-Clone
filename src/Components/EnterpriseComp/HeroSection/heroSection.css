@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap: 20px;
+    border-bottom: 0.5px solid #89898960;
+    margin-top: -30px;
+}
+
+.herocontent-left{
+    width: 60%
+    height: 100vh;
+    h1{
+        font-size: 80px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 18px;
+        margin-top: 20px;
+        color: #898989; 
+    }
+}
+
+.moreinfo{
+    
+}
+.moreinfo:hover{
+    cursor: pointer;
+    color: white;
+    ease-in-out;
+    transition: color 0.2s;
+}
+
+.herocontent-right{
+    width: 40%;
+    height: 120vh;
+    border:1px solid #89898942;
+    /* align-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroForm{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.demo-button{
+     background-color: #007aff;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    width: 160px;
+    font-size: 1.1rem;
+}
+.demo-button:hover{
+    background-color: #0055d4;
+    cursor: pointer;
+}
+
+.businessEmail-Ctn, .companySize-Ctn, .firstName-Ctn, .lastName-Ctn, .phoneNum, .company-Ctn, .title-Ctn, .countryCtn{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 13vh;
+    border: 0.5px solid #89898960;
+    /* background-color: #8989891c; */
+    
+
+}
+.supportCtn{
+    border: 0.5px solid #89898960;
+    /* background-color: #89898900; */
+    width: 45%;
+    height: 13vh;
+}
+.phoneNum-Ctn{
+   /* background-color: #89898900; */
+   border: 0.5px solid #89898960;
+    width: 95%;
+    height: 13vh;
+    
+}
+
+.businessEmail-Ctn:hover, .companySize-Ctn:hover, .firstName-Ctn:hover, .lastName-Ctn:hover, .company-Ctn:hover, .title-Ctn:hover, .countryCtn:hover, .phoneNum-Ctn:hover, .supportCtn:hover{
+    border: 0.1px solid white;
+    cursor: pointer;
+
+}
+
+.phoneNum{
+    border: none;
+    width: 100%;
+    height: fit-content;
+}
+.firstDual-Ctn, .secondDual-Ctn, .thirdDual-Ctn, .fourthDual-Ctn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* width:80%; */
+    /* padding-left: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.label{
+        font-size: 0.8rem;
+        background-color:inherit;
+        border: none;
+        outline: none;
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+
+.businessEmail, .companySize, .firstName, .lastName, .phoneNum, .company, .title, .country, .support{
+    border: none;
+    background-color: inherit;
+    max-width:80%;
+    outline: none;
+    max-height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-top: 5px; */
+}
+
+.formFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p{
+        width: 60%;
+    }
+}
+
+.formBtn{
+    background-color: #007aff;
+    width: 120px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+.formBtn:hover{
+    background-color: #0055d4;
+    cursor: pointer;
+}
+
+.supportSpan{
+    display: block;
+    margin-left: 10px;
+}

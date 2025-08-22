@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scalePageContainer{
+    height: 160vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+.scalePageUppersection{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    height: 65vh;
+}
+
+.scalePageHeader{
+    width: 50%;
+    font-size: 60px;
+}
+
+.scalePageParagraph{
+    width: 50%;
+    font-size: 20px;
+}
+
+.scalePageLowersection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    height: 135vh;
+}
+.scalebox{
+    height: 90vh;
+    border:0.5px solid #89898960;
+}
+.firstIcon{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.secondIcon{
+     width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.thirdIcon{
+     width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.fourthIcon{
+     width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.boxArticle{
+    margin-top: 80px;
+    text-align: left;
+    margin-left: 30px;
+    
+    p{
+        font-size: 16px;
+        color: #f0f0f0e4;
+        line-height: 25px;
+    }
+}

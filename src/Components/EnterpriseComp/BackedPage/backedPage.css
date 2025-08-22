@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backedPageContainer{
+    height: 200vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom: 0.5px solid #89898960;
+    
+}
+.backedPageUppersection{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    height: 65vh;
+}
+
+.backedPageHeader{
+    width: 50%;
+    font-size: 60px;
+}
+
+.backedPageParagraph{
+    width: 50%;
+    font-size: 20px;
+    color: #f0f0f0e4;
+}
+
+.backedPageLowersection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    height: 85vh;
+    margin-bottom: 30px;
+}
+.webflowbox{
+    height: 80vh;
+    border:0.5px solid #89898960;
+}
+.Icon1{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.Icon2{
+     width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.Icon3{
+     width: 60px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.Icon4{
+     width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.webflowArticle{
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 30px;
+    
+    p{
+        font-size: 16px;
+        color: #f0f0f0e4;
+        line-height: 25px;
+    }
+}
+.webflowSecurityHeader{
+    margin-bottom: 10px;
+}
+.webflowSecurityPara{
+    font-size: 18px;
+        color: #f0f0f0e4;
+}
+.thirdSection{
+     border:0.5px solid #89898960;
+     padding: 20px;
+}

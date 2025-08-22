@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.transformContainer{
+    height: 100vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    border-bottom: 0.5px solid #89898960;
+}
+.transformHeader{
+    font-size: 85px;
+        font-weight: 700;
+}
+.transformParagraph{
+    font-size: 25px;
+}
+.contactSalesBtn{
+     background-color: #007aff;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    width: 160px;
+    font-size: 1.1rem;
+}
+.contactSalesBtn:hover{
+    background-color: #0055d4;
+    cursor: pointer;
+}

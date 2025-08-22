@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footerContainer{
+    height: 100vh;
+}
+.footerUpperContainer{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 80px;
+}
+.foooterContent{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 15px;
+    height: 50vh;
+    padding: 20px;
+    
+    a{
+        text-decoration: none;
+    }
+}
+.footerList{
+    list-style: none;
+    line-height: 30px;
+}
+.footerListItem{
+    color: #f0f0f0a6;
+}
+.footerListItem:hover{
+    color: white;
+}
+
+.foooterContent4{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 15px;
+    height: 50vh;
+    padding: 20px;
+    width: max-content;
+    a{
+        text-decoration: none;
+    }
+}
+
+.footerDownContainer{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: -80px;
+}
+
+.footerDownSubContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top:0.5px solid #89898960;
+    padding-top: 30px;
+    
+}
+
+.webflowFooterIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+
+.footerLinkIcons{
+    text-decoration: none;
+}
+
+.footerPara{
+    color:#f0f0f0a6; 
+}
+
+
+.tiktokFooterIcon, .instagramFooterIcon, .linkdenflowFooterIcon, .facebookFooterIcon, .youtubeFooterIcon{
+    background-color: #f0f0f0a6;
+    width: 20px;
+    height: 20px;
+     border-radius: 50%;
+}
+.xFooterIcon, .webflowFooterIcon2{
+    width: 20px;
+    height: 20px;
+     border-radius: 50%;
+}
+.webflowFooterIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
