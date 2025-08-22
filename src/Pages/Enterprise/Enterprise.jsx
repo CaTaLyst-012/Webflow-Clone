@@ -6,7 +6,7 @@ import ScalePage from '../../Components/EnterpriseComp/ScalePage/ScalePage'
 import WebflowSection from '../../Components/EnterpriseComp/WebflowSection/WebflowSection';
 import BackedPage from '../../Components/EnterpriseComp/BackedPage/BackedPage';
 import Footer from '../../Components/EnterpriseComp/Footer/Footer';
-import './Enterprise.css';
+import './enterprise.css';
 
 function Enterprise() { 
 return ( 
